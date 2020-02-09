@@ -1,0 +1,9 @@
+volumes:
+  ubuntu-openssh-home: {}
+ubuntu-openssh:
+  image: "templesofsyrinx/ubuntu-sshd:18.04"
+  ports:
+    - "$PORT:2222"
+  volumes:
+    - ubuntu-openssh-home:/home
+
