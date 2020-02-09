@@ -1,0 +1,5 @@
+name: Unbuntu Open SSH Daemon
+description: |
+  Ubuntu server running with OpenSSH Damon rfor Visual Studio Code Remote: SSH Development
+version: 18.04
+category: Development
