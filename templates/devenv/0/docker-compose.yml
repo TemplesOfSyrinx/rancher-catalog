@@ -9,4 +9,4 @@ services:
     volumes:
       - type: volume
         source: ubuntu-openssh-home
-        target: /home
+        target: "/home"
