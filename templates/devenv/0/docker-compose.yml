@@ -7,4 +7,8 @@ services:
     ports:
     - "$PORT:2222"
     volumes:
-    - "ubuntu-openssh-home:/home"
+      - type: volume
+        source: ubuntu-openssh-home
+        target: /home
+        volume:
+          nocopy: true
