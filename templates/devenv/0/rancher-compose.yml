@@ -1,0 +1,13 @@
+.catalog:
+  name: Ubuntu Open SSH
+  version: 1.0.0
+  description: |
+    Ubuntu Open SSH
+  questions:
+  - variable: "PORT"
+    type: "int"
+    label: "Port Number"
+    description: "Which port should Open SSH listen on?"
+    default: 22
+    required: true
+
