@@ -10,5 +10,3 @@ services:
       - type: volume
         source: ubuntu-openssh-home
         target: /home
-        volume:
-          nocopy: true
