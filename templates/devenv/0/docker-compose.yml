@@ -1,3 +1,4 @@
+version: '2'
 volumes:
   ubuntu-openssh-home: {}
 services:
@@ -6,4 +7,4 @@ services:
     ports:
     - "$PORT:2222"
     volumes:
-    - ubuntu-openssh-home:/home
+    - "ubuntu-openssh-home:/home"
