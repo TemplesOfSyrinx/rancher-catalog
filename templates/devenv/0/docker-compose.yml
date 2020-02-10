@@ -4,7 +4,6 @@ volumes:
 services:
   ubuntu-openssh:
     image: "templesofsyrinx/ubuntu-sshd:18.04"
-    network_mode: "bridge"
     ports:
     - "$PORT:2222"
     volumes:
