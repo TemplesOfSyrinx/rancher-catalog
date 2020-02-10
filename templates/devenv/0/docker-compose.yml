@@ -1,4 +1,4 @@
-version: '2'
+version: "2.4"
 services:
   ubuntu-openssh:
     image: "templesofsyrinx/ubuntu-sshd:18.04"
