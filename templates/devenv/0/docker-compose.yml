@@ -1,12 +1,12 @@
 version: '2'
-volumes:
-  ubuntu-openssh-home: {}
 services:
   ubuntu-openssh:
     image: "templesofsyrinx/ubuntu-sshd:18.04"
     ports:
     - "$PORT:2222"
     volumes:
-      - type: "volume"
+      - type: volume
         source: ubuntu-openssh-home
         target: /home
+volumes:
+  ubuntu-openssh-home: {}
