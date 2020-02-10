@@ -5,6 +5,6 @@ services:
   ubuntu-openssh:
     image: "templesofsyrinx/ubuntu-sshd:18.04"
     ports:
-    - "$PORT:2222"
+    - "$PORT:22"
     volumes:
       - ubuntu-openssh-home:/home
