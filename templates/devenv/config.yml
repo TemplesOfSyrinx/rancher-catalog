@@ -1,7 +1,7 @@
 name: Ubuntu Open SSH Daemon
 description: |
   Ubuntu server running with OpenSSH Damon for Visual Studio Code Extension Remote: SSH Development
-version: 18.04
+version: 18.04-1
 category: Applications
 maintainer: "Temples of Syrinx <TOS@gmail.com>"
 projectURL: https://github.com/TemplesOfSyrinx/ubuntu-sshd
