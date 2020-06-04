@@ -1,0 +1,13 @@
+version: '2'
+volumes:
+  coder-project: {}
+services:
+  code-server:
+    image: codercom/code-server
+    environment:
+      PASSWORD: password
+      TZ: Chicago/America
+    volumes:
+    - coder-project:/home/coder/project
+    ports:
+    - $PORT:8080/tcp
