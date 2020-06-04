@@ -8,5 +8,5 @@
     type: "int"
     label: "Port Number"
     description: "Which port should Coder listen on?"
-    default: 22
+    default: 8080
     required: true
