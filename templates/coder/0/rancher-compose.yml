@@ -1,0 +1,12 @@
+.catalog:
+  name: Coder
+  version: 1.0.0
+  description: |
+    Coder
+  questions:
+  - variable: "PORT"
+    type: "int"
+    label: "Port Number"
+    description: "Which port should Coder listen on?"
+    default: 22
+    required: true
